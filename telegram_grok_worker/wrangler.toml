@@ -1,0 +1,12 @@
+name = "telegram-grok-bot"
+type = "javascript"
+
+account_id = "你的 Cloudflare 账户ID"
+workers_dev = true
+compatibility_date = "2024-05-01"
+
+[vars]
+TELEGRAM_TOKEN = "你的Telegram Bot Token"
+OPENAI_API_KEY = "你的公益站Token"
+OPENAI_API_BASE = "https://ai.huan666.de/v1"
+DEFAULT_MODEL = "grok-3"
